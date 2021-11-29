@@ -1,14 +1,26 @@
 import request from '@/utils/request'
 
 
-// 注册方法
 export function listFilm(data) {
     return request({
         url: '/listFilm',
-        headers: {
-            isToken: false
-        },
-        method: 'post',
+        method: 'get',
+        data: data
+    })
+}
+
+export function listType(data) {
+    return request({
+        url: '/listType',
+        method: 'get',
+        data: data
+    })
+}
+
+export function listLast(data) {
+    return request({
+        url: '/last',
+        method: 'get',
         data: data
     })
 }

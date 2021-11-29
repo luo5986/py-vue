@@ -1,0 +1,35 @@
+
+#l {
+    position: absolute;
+    width: 50%;
+    height: 43.25%;
+    top: 12.5%;
+    left: 0;
+}
+
+#l-b {
+    position: absolute;
+    width: 50%;
+    height: 43.25%;
+    top: 55.75%;
+    left: 0;
+}
+
+#r {
+    position: absolute;
+    width: 50%;
+    height: 86.5%;
+    top: 12.5%;
+    right: 0;
+    /*background: #666;*/
+}
+.inner {
+    width: 100%;
+    position: absolute;
+    top: 2%;
+    height: 95%;
+    bottom: 3%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}

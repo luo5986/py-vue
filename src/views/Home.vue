@@ -1,7 +1,6 @@
 <template>
   <div class="home">
     <div id="main" style="width: 400px;height: 300px;background-color: aquamarine"></div>
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
   </div>
 </template>
 
@@ -96,7 +95,6 @@ export default {
   },
   methods: {
     getData() {
-      console.log(111)
       listFilm(this.queryParams).then(response => {
         console.log(response)
         this.filmList = response.data;
