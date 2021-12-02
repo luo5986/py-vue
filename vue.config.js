@@ -10,7 +10,7 @@ module.exports = {
         port: 3000, // 端口
         proxy:{
             '/api':{
-                target: 'http://localhost:5000/',
+                target: 'http:localhost:5000/api',
                 changeOrigin: true,
                 pathRewrite: {
                     '^/api': ''
